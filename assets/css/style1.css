@@ -1,0 +1,118 @@
+
+.slider1 {
+    font-family: "Oswald", sans-serif;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+  .slider1 .slide {
+      padding: 10em 0;
+      position: relative;
+  }
+
+    .slider1 .slide:before {
+        background: #000000;
+        bottom: 0;
+        content: "";
+        display: block;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .slider1 .slide .slider-image {
+        left: 0;
+        min-height: 100%;
+        min-width: 1400px;
+        width: 100%;
+        height: auto;
+        opacity: 0.2;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+
+    .slider1 .slide .slider-subtitle,
+    .slider1 .slide .slider-title,
+    .slider1 .slide .slider-button {
+        line-height: 1.2em;
+        position: relative;
+        z-index: 1;
+    }
+
+    .slider1 .slide .slider-subtitle {
+        color: #ffffff;
+        font-size: 3em;
+    }
+
+    .slider1 .slide .slider-title {
+        color: #ffce00;
+        font-size: 6em;
+    }
+
+    .slider1 .slide .slider-button {
+        margin-top: 1em;
+    }
+
+  .slider1 .owl-prev,
+  .slider1 .owl-next {
+      background: #000000;
+      color: #ffffff;
+      cursor: pointer;
+      display: block;
+      font-size: 2em;
+      height: 60px;
+      line-height: 56px;
+      margin-top: -30px;
+      opacity: 0.3;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 60px;
+      transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+  }
+
+    .slider1 .owl-prev:hover,
+    .slider1 .owl-next:hover {
+        opacity: 1;
+    }
+
+    .slider1 .owl-prev {
+        left: 0;
+    }
+
+    .slider1 .owl-next {
+        right: 0;
+    }
+
+    
+  .owl-carousel .owl-item img {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+    border: 2px solid #000000;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin: 0 5px;
+    width: 12px;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+    background: #000000;
+}
