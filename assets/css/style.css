@@ -1330,7 +1330,7 @@ select:-webkit-autofill {
 
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
-  -webkit-text-fill-color: #1d1d1f !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
 
 input:-webkit-autofill,
@@ -3216,7 +3216,7 @@ pagination
 .input-night-rider .input input, .input-night-rider .input select {
   background-color: transparent;
   margin-bottom: 0;
-  color: #b3b3b3;
+  color: #e3dddd;
   border: 1px solid #434343;
 }
 
