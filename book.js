@@ -42,7 +42,9 @@
     // Hide alert after 3 seconds
     setTimeout(function(){
      document.querySelector('.alert').style.display = 'none';
-    },3000);
+    },2000);
+    
+    window.open('https://intercityriders.com/bookingSuccess.html', '_self');
   
     // Clear form
     document.getElementById('bookingForm').reset();
