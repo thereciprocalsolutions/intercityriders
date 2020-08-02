@@ -769,7 +769,9 @@ body:not(.woocommerce) .blog-single-block #comments table td {
 .color-black h2 {
   color: #000;
 }
-
+.color-whatsapp {
+  background-color: #075e54;
+}
 .color-black p {
   color: #fff !important;
 }
@@ -1254,7 +1256,9 @@ a.more-content {
 .black-button {
   background-color: #000000;
 }
-
+.bg-black-color {
+  background-color: black;
+}
 .soft-black-button {
   background-color: #1b1b1b;
 }
@@ -8178,8 +8182,7 @@ input[type="checkbox"]::-ms-check {
 @media only screen and (min-width: 540px) {
   .page-header.pd-404 .main-content .text-content {
     position: absolute;
-    right: 45px;
-    bottom: 40px;
+    left: 170;
   }
 }
 
