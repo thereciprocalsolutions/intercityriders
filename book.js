@@ -44,7 +44,7 @@
      document.querySelector('.alert').style.display = 'none';
     },2000);
     
-    window.open('https://intercityriders.com/bookingSuccess.html', '_self');
+    //window.open('https://intercityriders.com/bookingSuccess.html', '_self');
   
     // Clear form
     document.getElementById('bookingForm').reset();
