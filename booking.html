@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="assets/css/color-schemer.css">   
 
     <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">   
-    
+    <link rel="stylesheet" href="auto.css"> 
     
     <style>
         .alert{
@@ -231,9 +231,10 @@
                                 <div class="col-md-4">
                                     <label>Pick up location</label>
                                     <div class="input">
+                                        <div  class="autocomplete">
                                         <!--i class="fa fa-clock-o"></i-->
                                         <input type="text" required placeholder="Pickup Location" class="pickup-location form-controller" id="pickuplocation">
-                                      </div><!--/.input-->
+                                      </div></div><!--/.input-->
                                 </div><!--/.col-md-4-->
                                 
                                 <div class="clearfix"></div><!-- /.clearfix -->
@@ -250,9 +251,10 @@
                                 <div class="col-md-4">
                                     <label>Drop location</label>
                                     <div class="input">
+                                        <div  class="autocomplete">
                                         <!--i class="fa fa-calendar"></i-->
                                         <input type="text" required class="drop-location form-controller" placeholder="Drop Location" id="droplocation">
-                                    </div><!--/.input-->
+                                    </div></div><!--/.input-->
                                 </div><!--/.col-md-4-->
 
                                 <div class="col-md-4">
@@ -477,6 +479,7 @@ request.send();
        
     <!-- All The JS Files
     ================================================== --> 
+<script src="auto.js"></script>
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/carrent.min.js"></script> <!-- main-js -->
 
