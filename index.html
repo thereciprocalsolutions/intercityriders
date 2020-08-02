@@ -53,7 +53,9 @@
     <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
    
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174160013-1"></script>
+<
+    
+    async src="https://www.googletagmanager.com/gtag/js?id=UA-174160013-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -215,8 +217,8 @@
             </div>
             <div class="heroo">
               <hgroup>
-                  <h1>Tamilnadu's Finest</h1>        
-                  <h3>One Way Taxi providers</h3>
+                  <h1>We are the best</h1>        
+                  <h3>the one you can trust</h3>
               </hgroup>
               <a href="booking.html" class="btn btn-hero btn-lg" role="button">Book Now</a>
             </div>
@@ -227,7 +229,7 @@
             </div>
             <div class="heroo">        
               <hgroup>
-                  <h1>CALL US FOR A RIDE NOW!</h1>        
+                  <h1>CALL US NOW!</h1>        
                   <h3>+91 99449 42223</h3>
               </hgroup>       
               <a href="tel:+91 99449 42223" class="btn btn-hero btn-lg" role="button">Call US</a>
@@ -406,13 +408,18 @@
         var finalMsg = encodeURI(result);
          document.getElementById("bookingForm").addEventListener("submit", (e) => {
 e.preventDefault();
-const request = new XMLHttpRequest();
-
-const url = 'https://api.telegram.org/bot1277549383:AAGnKv4XGhOAG08Qg7ewe1mLVyXFiISPJ8o/sendMessage?chat_id=-1001479118068&text='+result;
+if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText5=="")
+        {
+        console.log('error');
+        }else
+        {
+            const request = new XMLHttpRequest();
+        const url = 'https://api.telegram.org/bot1277549383:AAGnKv4XGhOAG08Qg7ewe1mLVyXFiISPJ8o/sendMessage?chat_id=-1001479118068&text='+result;
 
 request.open("post", url);
 
 request.send();
+        }
 
 });
 
