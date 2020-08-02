@@ -35,7 +35,9 @@
     saveMessage(name, phone, pickuplocation,  pickuptime, droplocation, cars);
   
     // Show alert
-    document.querySelector('.alert').style.display = 'block';
+    //document.querySelector('.alert').style.display = 'block';
+    
+    window.location.href='http://xyz.com';
   
     // Hide alert after 3 seconds
     setTimeout(function(){
